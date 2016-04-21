@@ -1,0 +1,49 @@
+.xml {
+	background-image: url(../../images/xml.jpg);
+}
+.pdf {
+	background-image: url(../../images/pdf.jpg);
+	background-position: center;
+}
+.docx {
+	background-image: url(../../images/docxslide.jpg);
+}
+.ebook {
+	background-image: url(../../images/ebook.jpg);
+}
+.consulting {
+	background-image: url(../../images/consulting.jpg);
+}
+.mbr-hero {
+	color: #fff;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+     text-shadow:0 0 10px #000;
+}
+.mbr-hero__text {
+	font-size: 56px;
+}
+.mbr-hero__subtext {
+	font-family: 'Oxygen', sans-serif;
+	top: 10px;
+	font-size: 25px;
+	text-align: left;
+	font-weight: bold;
+}
+.mbr-hero__subtext li {
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+	.mbr-hero__text {
+		font-size: 40px;
+	}
+	.mbr-hero__subtext {
+		font-size: 20px;
+	}
+	.mbr-hero__subtext li {
+		margin-bottom: 5px;
+	}
+}
