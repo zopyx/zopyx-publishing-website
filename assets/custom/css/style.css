@@ -47,3 +47,8 @@
 		margin-bottom: 5px;
 	}
 }
+
+img.social-media {
+    width: 75px; 
+    max-width: 75px;
+}
